@@ -1,0 +1,144 @@
+<div class="wrapper">
+
+    <!-- N A V B A R -->
+    <div class="sticky-top">
+
+        <nav class="navbar navbar-dark">
+            <div class="nav-content">
+                <a class="navbar-brand" href="##">
+                     <img src="/assets/img/giphy.gif" class="rounded d-block" alt="logoGIF">
+                    Investigate Topics using IBM's Waston
+                </a>
+               
+              
+            </div>
+        </nav>
+       
+      <script>
+         
+       
+       </script>
+       {{!-- <div>
+           {{#each topics}}
+           <p>{{name}}</p>
+           <a href="/api/watson/delete/:id">Delete</a>
+           {{/each}}
+       </div>
+       <div>
+           {{#each topics}}
+           <p>{{splitTitle name}}</p>
+           {{/each}}
+       </div>
+
+       <div>
+           {{#each topics}}
+           <p>{{{splitTitle name}}}</p>
+           {{/each}}
+        </div> --}}
+
+
+ <div class="bg-dark"></div>
+
+ 
+    
+   <form action="/api/watson" method="POST" class="search-box">
+        <input id="search-input" name="name"  class="form-control mr-sm-2 mx-auto d-block" type="text" placeholder="Search">
+        <button id="search-button" class="btn btn-outline-primary my-2 my-sm-0">Enter</button>
+    </form>
+
+
+
+
+
+
+
+
+
+      
+           {{!-- SEARCH BOX --}}
+       {{!-- <div class="search-box">
+                    <input id="search-input" class="form-control mr-sm-2 mx-auto d-block" type="text" placeholder="Search">
+                    <button type="submit" id="search-button" class="btn btn-outline-primary my-2 my-sm-0" type="submit">Enter</button>
+                </div>
+         --}}
+        </div>
+    </div>
+
+     <script>
+            $('#search-button').on("click", ()=> {
+        $('img').attr('src', "/assets/img/watson-2.gif"); 
+});
+     </script>
+
+
+    
+    <div class="container page-body chart-body">
+        <div id="results-box">
+            <div class="row">
+                <h3 id="school-name">School Name</h3>
+            </div>
+
+            <div class="row results-content">
+                <div class="col content">
+                    <div id="charts">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="bar-tab" data-toggle="tab" href="#bar-graph" role="tab" aria-controls="bar" aria-expanded="true"
+                                    data-ytta-id="-">Admissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="demo-tab" data-toggle="tab" href="#demo-graph" role="tab" aria-controls="demo" data-ytta-id="-" aria-expanded="false">Demographics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="aid-tab" data-toggle="tab" href="#aid-graph" role="tab" aria-controls="aid" data-ytta-id="-" aria-expanded="false">Aid Award Rates</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade active show" id="bar-graph" role="tabpanel" aria-labelledby="bar-tab" aria-expanded="true">
+                            </div>
+                            <div class="tab-pane fade" id="demo-graph" role="tabpanel" aria-labelledby="demo-tab" aria-expanded="false">
+                            </div>
+                            <div class="tab-pane fade" id="aid-graph" role="tabpanel" aria-labelledby="aid-tab" aria-expanded="false">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <button id="go-back-button" class="btn btn-outline-secondary my-2 my-sm-0">Go Back</button>
+            </div>
+
+            <div class="results-loading">
+                <img class="loading-icon" src="/assets/img/watson-2.gif" alt="Loading Icon">
+                <h6>Loading . . .</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="card bg-light mb-3 map-card">
+        <h3 class="card-header">Map It</h3>
+        <div class="card-body">
+            <div id="googleMap" style="width:100%;height:400px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- R E T U R N   T O   T O P  -->
+    <div class="toTop">
+        <a href="#" class="toTop badge badge-info">Return to Top</a>
+    </div>
+    <div class="push"></div>
+
+    <!-- F I X E D   F O O T E R -->
+    <div class="navbar navbar-default fixed-footer">
+        <div class="container center-footer">
+            <p class="navbar-text footer-content">Copyright:
+                <a class="footer-content" href="https://github.com/jbedilio" target="_blank">Josh</a>
+                <a class="footer-content" href="https://github.com/lpeteet" target="_blank">Larry</a>
+                <a class="footer-content" href="https://github.com/myskam7" target="_blank">Max</a>
+                <a class="footer-content" href="https://github.com/DC-Developer" target="_blank">Dion</a> &copy; 2017
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,201 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #b6b5b5;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+/* ADDED BY LARRYP FROM TEAM PROJECT, WILL CLEANUP LATER, PLEASE LEAVE HERE */
+
+/* N A V B A R  */
+.navbar {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  /* background: black; */
+}
+
+.sticky-top{
+  background: black;
+}
+
+.nav-content {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  /* margin: 0 20%; */
+  width: 100%;
+}
+
+
+
+.navbar-text {
+  width: 150px;
+  /* text-align: right; */
+  padding-top: 1rem;
+  /* float: right; */
+}
+
+/* S E A R C H   B O X */
+.search-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  float: left;
+  margin-top: 8%;
+  margin-left: 25%;
+  width: 50%;
+}
+
+/* F I L T E R   B O X */
+.rec-container {
+  margin-top: 10px;
+  max-width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.form-title {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.form-control {
+  margin: 10px 0;
+}
+
+.form-label{
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+/* P A G E  B O D Y  */
+.page-body {
+  max-width: 60%;
+  margin-right: 20%;
+  margin-top: 20px;
+ 
+}
+
+.input-box {
+  padding: 0;
+}  
+
+/* R E S U L T S   L O A D I N G  */
+.results-loading {
+  min-height: 440px;
+  max-height: 440px;
+  width: 100%;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+
+  text-align: center;
+  color: #444;
+  font-family:'Open Sans', sans-serif;
+  font-size: 19px;
+}
+
+.results-content {
+  visibility: hidden;
+}
+
+.loading-icon {
+  margin: 5%;    
+  margin-bottom: 0;
+}
+
+/* R E S U L T S */
+.chart-body{
+  display: none;
+  position: relative;
+  margin-right: 0;
+  float: left;
+  max-width: 55%;
+}
+
+#school-name {
+  padding-left: 15px;
+}
+
+.nav-link {
+  color: #7e8994; 
+}
+
+.tab-pane {
+  min-height: 360px;
+  max-height: 360px;
+}
+
+#go-back-button {
+  margin-left: 25px;
+}
+
+.map-card {
+  margin-top: 10px;
+  min-width: 20%;
+  float: right;
+  text-align: center;
+  visibility: hidden;
+  margin-right: 15px
+}
+
+/* T O   T O P */
+.toTop {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 10px 10px;
+}
+
+/* F O O T E R  */
+html, body{
+  height: 100%;
+  margin: 0;
+  background: lightblue;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -90px;
+}
+
+.push {
+  clear: both;
+  height: 90px;
+}
+
+.footer-content {
+  width: 100%;
+  color: #444;
+  font-family:'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 auto;
+  background: lightblue;
+} 
+
+.fixed-footer {
+  height: 90px;
+  margin: 20px 20% 0 20%;
+}
+
+.center-footer {
+  margin: 0 auto;
+  width: 50%;
+}
+/* END: ADDED BY LARRYP FROM TEAM PROJECT, WILL CLEANUP LATER, PLEASE LEAVE HERE */

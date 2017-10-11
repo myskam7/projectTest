@@ -1,0 +1,17 @@
+<li>
+	{{name}}
+
+<form method="POST" action="/api/songs/{{id}}">
+	{{#if listened}}
+		<input type="hidden" name="listened" value="1" />
+	{{else}}
+		<input type="hidden" name="listened" value="0" />
+	{{/if}}
+	<button type="submit">
+		{{#if listened}}I FORGOT{{else}}I LISTEND{{/if}}
+	</button>
+</form>
+<form method="POST" action="/api/song/delete/{{id}}">
+	<button>[X]</button>	
+</form>
+</li>

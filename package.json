@@ -1,0 +1,27 @@
+{
+  "name": "topic-watson",
+  "version": "1.0.0",
+  "description": "Topic-Watson is the name of the 2nd Team Project using the IBM Watson API and User-Entered Topics",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpeteet/topic-watson.git"
+  },
+  "author": "Larry S. Peteet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpeteet/topic-watson/issues"
+  },
+  "homepage": "https://github.com/lpeteet/topic-watson#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0",
+    "watson-developer-cloud": "^2.41.1"
+  }
+}
